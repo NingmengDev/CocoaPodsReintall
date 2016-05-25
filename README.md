@@ -21,6 +21,6 @@ CocoaPods重新安装、版本降级方法，仅作学习之用。
 17、若步骤16成功完成后即可完成重新安装或降级cocoapods版本；    
 18、若步骤16发生错误（如：[!] /usr/bin/Git clone 'https://github.com/CocoaPods/Specs.git' master —depth=1），则在终端中输入命令 sudo gem update --system ，回车 —— 更新gem版本；    
 19、在终端中输入命令 sudo -rm -rf ~/.cocoapods/，回车 —— 删除之前发生错误的cocoapods资源；    
-20、完成后再执行步骤16即可；
+20、完成后再执行步骤16即可；    
 21、若步骤16发生错误（如：Operation not permitted - /usr/bin/xcodeproj），则在终端中输入命令 sudo gem install -n /usr/local/bin cocoapods --version 0.39.0 ，回车 —— 重新安装cocoapods；    
 22、步骤21完成后，再依次执行步骤19、20即可。    
